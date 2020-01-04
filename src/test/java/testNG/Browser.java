@@ -11,6 +11,7 @@ public class Browser {
 
 	protected WebDriver driver;
 
+	//@BeforeSuite
 	@BeforeClass
 	public void launchBrowser() {
 
