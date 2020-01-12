@@ -19,7 +19,7 @@ public class Browser {
 		driver = new ChromeDriver();
 
 		System.out.println("Open URL");
-		driver.get("https://demo.midtrans.com/");
+//		driver.get("https://demo.midtrans.com/");
 	}
 
 	@AfterClass
