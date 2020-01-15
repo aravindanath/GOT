@@ -46,6 +46,17 @@ public class Praveena_Base_Class {
 
 	}
 
+	
+	/**
+	 * @author Praveena
+	 * 
+	 * 
+	 * 
+	 * @param key
+	 * @param value
+	 * @param path
+	 * @throws IOException
+	 */
 	public static void writeProperties(String key, String value, String path) throws IOException {
 		// String path = System.getProperty("user.dir") +
 		// "//TestDataj//Praveena_Test_Data_Prop.properties";
