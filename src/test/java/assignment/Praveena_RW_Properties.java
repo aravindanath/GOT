@@ -7,7 +7,7 @@ public class Praveena_RW_Properties extends Praveena_Base_Class {
 
 	// Creating a properties file, writing in to it and reading the written key
 	// value pair.
-
+	// GIT HUB ui
 	// To create new properties file through code
 	String path = System.getProperty("user.dir") + "//TestDataj//Praveena_Test_Data_Prop.properties";
 
