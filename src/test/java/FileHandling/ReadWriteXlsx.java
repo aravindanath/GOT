@@ -8,9 +8,11 @@ public class ReadWriteXlsx {
 		
 		Xls_Reader xls = new Xls_Reader(path);
 		String sheetName ="Control";
-		String val = xls.getCellData(sheetName, 4, 1);
-		String cal =xls.getCellData(sheetName, "Runmode", 3);
-		System.out.println(cal);
+		
+//		String val = xls.getCellData(sheetName, 4, 1);
+//		String cal =xls.getCellData(sheetName, "Runmode", 3);
+//		System.out.println(cal);
+		xls.setCellData(sheetName, "Runmode", 6, "NOOO");
 		
 	}
 
