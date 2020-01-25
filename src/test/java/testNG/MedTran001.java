@@ -1,5 +1,6 @@
 package testNG;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -21,9 +22,11 @@ public class MedTran001  extends Browser{
  
 	@Test
 	public void verifyTitle() {
-
 		String title =driver.getTitle();
+		
+		Reporter.log("User is on "+ title);
 		System.out.println("Page title is "+ title);
+		
 
 	}
 

@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
 import org.testng.annotations.*;
 
 public class MedTran003 {
@@ -41,6 +42,7 @@ public class MedTran003 {
 	@Test
 	public void m1() {
 		System.out.println("Method 1");
+		Reporter.log("User is on method one..");
 	}
 
 //	@Test
