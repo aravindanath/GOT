@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="6" name="TestSuite" time="7.127" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/aravindanathdm/eclipse-workspace/Seltos"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/aravindanathdm/eclipse-workspace/Seltos"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/3g/v68mnd5s5r79tn77mmv2x4_w0000gp/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/aravindanathdm/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf103777610191834871.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/aravindanathdm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.2"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/aravindanathdm"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="aravindanathdm"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/aravindanathdm/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/aravindanathdm/eclipse-workspace/Seltos/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0.009">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@3caeaf62
+@BeforeSuite started.
+@BeforeTest started.
+User :Aravinda
+Age :30.0
+Address :Bombay
+Company :Ifosys
+</system-out>
+    <system-err>Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 43134
+Only local connections are allowed.
+Jan 12, 2020 9:46:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>User :Avi
+Age :29.0
+Address :Delhi
+Company :Flipkart
+</system-out>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>User :Ankush
+Age :30.0
+Address :Bangalore
+Company :Amazon
+</system-out>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>User :Poonam
+Age :30.0
+Address :Chennai
+Company :IgTE
+</system-out>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>User :Abhi
+Age :29.0
+Address :Madras
+Company :HCK
+</system-out>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcelUsingHashTable" name="userDetails" time="0.008">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+</failure>
+    <system-out>User :Pradyumna
+Age :29.0
+Address :Bangalore
+Company :OLA
+</system-out>
+  </testcase>
+  <testcase classname="testNG.TestDataFromExcel" name="f" time="2.578"/>
+  <testcase classname="testNG.TestDataFromExcel" name="f" time="2.245"/>
+  <testcase classname="testNG.TestDataFromExcel" name="f" time="2.28"/>
+  <testcase classname="testNG.TestNGAnnotations" name="firstTest" time="0"/>
+  <testcase classname="testNG.TestNGAnnotations" name="secondTest" time="0"/>
+</testsuite>

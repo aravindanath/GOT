@@ -1,5 +1,6 @@
 package ReUsables;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -16,7 +17,7 @@ public class BaseClass {
 	 * 
 	 */
 	public static String getValue(String key) throws IOException {
-		String path = System.getProperty("user.dir") + "//TestData//testdata.properties";
+		String path = System.getProperty("user.dir") +File.separator +"config.properties";
 		FileInputStream fis = new FileInputStream(path);
 		Properties prop = new Properties();
 		prop.load(fis);

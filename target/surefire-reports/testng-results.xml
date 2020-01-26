@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="11" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+    <line>
+      <![CDATA[Test Start]]>
+    </line>
+    <line>
+      <![CDATA[Test End]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17855" started-at="2020-01-12T04:16:01Z" finished-at="2020-01-12T04:16:19Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17855" started-at="2020-01-12T04:16:01Z" finished-at="2020-01-12T04:16:19Z">
+      <class name="testNG.TestDataFromExcel">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="openBrowser" is-config="true" duration-ms="9595" started-at="2020-01-12T04:16:01Z" finished-at="2020-01-12T04:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:01Z" finished-at="2020-01-12T04:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setupTests()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="setupTests" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:10Z" finished-at="2020-01-12T04:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTests -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="f" duration-ms="2578" started-at="2020-01-12T04:16:12Z" data-provider="getData" finished-at="2020-01-12T04:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhishake]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password@1123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="f" duration-ms="2246" started-at="2020-01-12T04:16:14Z" data-provider="getData" finished-at="2020-01-12T04:16:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poonam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adfdfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="f" duration-ms="2279" started-at="2020-01-12T04:16:16Z" data-provider="getData" finished-at="2020-01-12T04:16:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ranjan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ranjan@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.TestDataFromExcel@5a61f5df]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="teardownTests()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="teardownTests" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTests -->
+      </class> <!-- testNG.TestDataFromExcel -->
+      <class name="testNG.TestNGAnnotations">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="setupSuite" is-config="true" duration-ms="24" started-at="2020-01-12T04:16:01Z" finished-at="2020-01-12T04:16:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="setupClass" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="setupTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="firstTest" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="teardownTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="teardownClass()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="teardownClass" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="setupTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="teardownTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="teardownTest" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="secondTest" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="teardownSuite()[pri:0, instance:testNG.TestNGAnnotations@36f6e879]" name="teardownSuite" is-config="true" duration-ms="0" started-at="2020-01-12T04:16:19Z" finished-at="2020-01-12T04:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- testNG.TestNGAnnotations -->
+      <class name="testNG.TestDataFromExcelUsingHashTable">
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="4" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Aravinda, Age=30.0, Company=Ifosys, Address=Bombay}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="1" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Avi, Age=29.0, Company=Flipkart, Address=Delhi}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="1" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Poonam, Age=30.0, Company=IgTE, Address=Chennai}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="0" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Ankush, Age=30.0, Company=Amazon, Address=Bangalore}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="1" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Abhi, Age=29.0, Company=HCK, Address=Madras}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+        <test-method status="FAIL" signature="userDetails(java.util.Hashtable)[pri:0, instance:testNG.TestDataFromExcelUsingHashTable@3551a94]" name="userDetails" duration-ms="7" started-at="2020-01-12T04:16:11Z" data-provider="getData" finished-at="2020-01-12T04:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Name=Pradyumna, Age=29.0, Company=OLA, Address=Bangalore}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Test Start]]>
+            </line>
+            <line>
+              <![CDATA[Test End]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userDetails -->
+      </class> <!-- testNG.TestDataFromExcelUsingHashTable -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

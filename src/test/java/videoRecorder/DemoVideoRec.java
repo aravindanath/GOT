@@ -15,6 +15,13 @@ import atu.testrecorder.exceptions.ATUTestRecorderException;
 import testNG.Browser;
 
 public class DemoVideoRec extends Browser {
+	
+	/**
+	 * Link to download ATUTestRecorder
+	 * https://drive.google.com/file/d/0B6vnknygMB3IZVh3MWxnNUNfeEE/view
+	 * 
+	 * @throws ATUTestRecorderException
+	 */
 
 	ATUTestRecorder recorder;
 	DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");

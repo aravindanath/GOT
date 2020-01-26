@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 18.75 sec <<< FAILURE!
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0.009 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
+userDetails(testNG.TestDataFromExcelUsingHashTable)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testNG.TestDataFromExcelUsingHashTable.userDetails(TestDataFromExcelUsingHashTable.java:23)
+
