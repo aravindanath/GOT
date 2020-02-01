@@ -11,7 +11,7 @@ public class ByRelativeXpathWithANd extends LaunchBrowserUsingWebDriverManager{
 	@Test
 	public void absXpath() {
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.xpath("//input[@type='text'and @name='firstname']")).sendKeys("selenium jobs",Keys.ENTER);
+		driver.findElement(By.xpath("//input[@type='text'and @name='firstname']")).sendKeys("Arvind");
 		
 	}
 	

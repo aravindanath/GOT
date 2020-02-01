@@ -13,7 +13,7 @@ public class ByXpathUsingStarts_With extends LaunchBrowserUsingWebDriverManager 
 		driver.get("https://www.google.in/");
 		driver.findElement(By.xpath("//input[starts-with(@class,'gLFyf')]")).sendKeys("Appium jobs",Keys.ENTER);
 		Thread.sleep(2000);
-	 
+		////span[starts-with(text(),'Hello')]
 
 	}
 
