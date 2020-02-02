@@ -14,7 +14,7 @@ public class ByXpathUsingFollowing extends LaunchBrowserUsingWebDriverManager {
 		driver.get("http://demo.guru99.com/test/web-table-element.php");
 		Thread.sleep(2000);
 
-		String xpath = "//table[@class='dataTable']/tbody/tr/td/a[contains(text(),'COMPANY')]//following::td[3]".replace("COMPANY", "IDFC");
+		String xpath = "//table[@class='dataTable']/tbody/tr/td/a[contains(text(),'COMPANY')]//following::td[3]".replace("COMPANY", "UCO");
 		
 		WebElement currentPrice = driver.findElement(
 				By.xpath(xpath));

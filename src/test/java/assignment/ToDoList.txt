@@ -1,3 +1,6 @@
 1. Write to properties file
 2. Create a reusable methods to write to the prop file
 3. create a file using java code FILE class
+
+4. https://www.bloomberg.com/markets/stocks
+5. Using above link find the NEt change for stock
