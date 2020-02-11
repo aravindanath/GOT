@@ -9,6 +9,7 @@ import org.openqa.selenium.*;
 
 import org.ini4j.Ini;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class BaseClass {
 
@@ -102,4 +103,27 @@ public class BaseClass {
 	public static void highlightElement(WebDriver driver,WebElement element,String colour) {
 		((JavascriptExecutor) driver).executeScript("arguments[0].style.border='5px solid "+colour+"'", element);
 	}
+
+	public static void selectbyVisibleText(WebElement element,String text){
+
+		Select sel = new Select(element);
+		sel.selectByVisibleText(text);
+
+	}
+
+	public static void selectbyValue(WebElement element,String text){
+
+		Select sel = new Select(element);
+		sel.selectByValue(text);
+
+	}
+
+	public static void selectbyIndex(WebElement element,int index){
+
+		Select sel = new Select(element);
+		sel.selectByIndex(index);
+
+	}
+
+
 }
