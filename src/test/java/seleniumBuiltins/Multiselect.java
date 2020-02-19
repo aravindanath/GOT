@@ -18,10 +18,22 @@ public class Multiselect extends LaunchBrowserUsingWebDriverManager {
 
         Thread.sleep(1000);
 
-       WebElement multi = driver.findElement(By.xpath("//label[text()='Continents – Multiple Select']"));
+       WebElement multi = driver.findElement(By.xpath("//label[text()='Continents']"));
             BaseClass.scrollTillElement(driver,multi);
             Thread.sleep(2000);
+       WebElement continents = driver.findElement(By.xpath("//select[@id='continentsmultiple']"));
 
+       Select sel = new Select(continents);
+       sel.selectByVisibleText("Asia");
+        sel.selectByVisibleText("Europe");
+        sel.selectByVisibleText("Africa");
+        sel.selectByVisibleText("South America");
+        sel.selectByVisibleText("Antarctica");
+        Thread.sleep(2000);
+        sel.deselectByVisibleText("Asia");
+//        sel.deselectAll();
+
+        Thread.sleep(2000);
     }
 
 }
