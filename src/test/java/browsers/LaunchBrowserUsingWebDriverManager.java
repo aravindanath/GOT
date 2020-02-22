@@ -1,6 +1,7 @@
 package browsers;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -34,10 +35,11 @@ public class LaunchBrowserUsingWebDriverManager {
 			driver = new FirefoxDriver();
 		}
 		driver.manage().window().fullscreen();
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
 	}
 
-	@AfterClass
+	//@AfterClass
 	public void teardown() {
 		driver.close();
 	}
