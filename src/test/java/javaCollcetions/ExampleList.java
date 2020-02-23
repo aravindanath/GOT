@@ -15,6 +15,8 @@ public class ExampleList {
 		list.add("Sujata");
 		list.add("Sujata");
 		System.out.println(list.get(3));
+//		list.forEach(li -> System.out.println(li));
+
 //		for(String obj : list) {
 //			
 //			if(obj.equals("Anil")) {

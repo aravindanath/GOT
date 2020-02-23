@@ -39,7 +39,7 @@ public class LaunchBrowserUsingWebDriverManager {
 
 	}
 
-	//@AfterClass
+	@AfterClass
 	public void teardown() {
 		driver.close();
 	}
