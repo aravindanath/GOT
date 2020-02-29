@@ -3,15 +3,33 @@ package ReUsables;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 import java.util.Properties;
 
+import com.github.javafaker.Address;
+import com.github.javafaker.Faker;
+import com.github.javafaker.Name;
+import com.google.common.io.Files;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 
 import org.ini4j.Ini;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
+
+import javax.imageio.ImageIO;
 
 public class BaseClass {
+
+
+//	private static WebDriver driver;
 
 	/**
 	 * @author aravindanathdm
@@ -125,5 +143,59 @@ public class BaseClass {
 
 	}
 
+	public static String city(){
+		Faker fake  = new Faker(new Locale("en-IND"));
+		Address address = fake.address();
+		 String city =address.city();
+		return city;
+
+	}
+
+	public static String fullName(){
+		Faker fake  = new Faker(new Locale("en-IND"));
+		Name name = fake.name();
+		String fn =name.fullName();
+		return fn;
+
+	}
+
+
+
+
+	public static String getcurrentdateandtime() {
+		String str = null;
+		try {
+			DateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss:SSS");
+			Date date = new Date();
+			str = dateFormat.format(date);
+			str = str.replace(" ", "").replaceAll("/", "").replaceAll(":", "");
+		} catch (Exception e) {
+
+		}
+		return str;
+	}
+
+	public static String captureScreen(WebDriver driver) throws IOException {
+		TakesScreenshot screen = (TakesScreenshot) driver;
+		File src = screen.getScreenshotAs(OutputType.FILE);
+		String dest = System.getProperty("user.dir") +File.separator+"Output"  +File.separator+ "demo.png";
+		System.out.println(dest);
+		File target = new File(dest);
+		FileUtils.copyFile(src, target);
+		return dest;
+	}
+
+
+	public static String screenShot(WebDriver driver) throws IOException {
+		Screenshot screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000))
+				.takeScreenshot(driver);
+		Date d = new Date();
+		System.out.println(d);
+		String screenshotFile = d.toString().replace(":", "_").replace(" ", "_") + ".png";
+		String path = System.getProperty("user.dir") +File.separator+"Output"  +File.separator;
+		String filePath = path + screenshotFile;
+		ImageIO.write(screenshot.getImage(), "PNG", new File(filePath));
+		return path;
+	}
 
 }

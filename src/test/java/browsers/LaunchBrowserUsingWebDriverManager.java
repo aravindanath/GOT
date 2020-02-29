@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.*;
 
 import ReUsables.*;
@@ -25,10 +26,13 @@ public class LaunchBrowserUsingWebDriverManager {
 			ChromeOptions ops = new ChromeOptions();
 			ops.addArguments("--disable-notifications");
 			ops.addArguments("--incognito");
+			ops.setAcceptInsecureCerts(true);
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver(ops);
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions fio = new FirefoxOptions();
+			fio.setAcceptInsecureCerts(true);
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
@@ -40,7 +44,8 @@ public class LaunchBrowserUsingWebDriverManager {
 	}
 
 	@AfterClass
-	public void teardown() {
+	public void teardown() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.close();
 	}
 
