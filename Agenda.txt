@@ -1,0 +1,14 @@
+5. Autosuggest n datepicker --> done
+4. cloud -- Done
+6. fluent wait / webdriver wait
+7. file upload & download (auto it)
+9. SSL handling
+10. Desirecapablites
+11. Broke links
+12. Ajax
+13. Taking screeeshots
+14. Reg ex
+15. Extent report / log4j
+15. EMAIL TRIGGER
+16. FW
+17. jenkins
